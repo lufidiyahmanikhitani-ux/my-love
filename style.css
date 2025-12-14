@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background: #0f172a;
+  color: white;
+  font-family: Georgia, serif;
+}
+
+/* CANVAS BUNGA */
+#canvas {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* TEKS DI ATAS CANVAS */
+.hero,
+.letter {
+  position: relative;
+  z-index: 2;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.letter {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 100px 20px;
+  line-height: 1.8;
+}
